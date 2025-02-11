@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Poiret+One&display=swap');
+
+h1{
+    font-family: "PT Serif", serif;
+    font-size: 3.1em;
+}
+
+p{
+    font-family: "Poiret One", sans-serif;
+    font-size: 2em;
+    font-weight:500;
+
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(97, 55, 55);
+            font-size: 30px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        h1{
+            color: aliceblue;
+        }
+
+        li{
+            list-style: none;
+        }
+        
+        a{
+            text-decoration: none;
+            color: aliceblue;
+            list-style: none;
+            
+        }
+
+        a:hover{
+            color: antiquewhite;
+            
+        }
+        
+        .epecial{
+            background-color: rgba(153, 136, 113, 0.759);
+        }
+        
+        a::before{
+            content: '→  ';
+            font-weight: 100;
+        }
+        
+        a::after {
+            content: '  ←';
+            font-weight: 100;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <li class="epecial"><a href="https://www.youtube.com/" target="_blank">youtube</a></li>
+    <li><a href="https://www.google.com/" target="_blank">google</a></li>
+    <li class="epecial"><a href="https://x.com/?lang=pt&mx=2" target="_blank">twitter</a></li>
+</body>
+</html>

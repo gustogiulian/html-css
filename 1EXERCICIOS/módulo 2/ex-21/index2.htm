@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(106, 84, 84);
+            font-size: 50px;
+        }
+        
+        div{
+            color: aliceblue;
+        }
+        
+        div > p{
+            display: none;
+        }
+
+        div:hover{
+            color: aquamarine;
+        }
+
+        div:hover > p{
+            color: red;
+            display: block;
+        }
+
+        p{
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        Passe o mouse
+    </p>
+    <div>
+        texto escondido aqui
+        <p>
+            ACHOU
+        </p>
+    </div>
+    <p>
+        FIM
+    </p>
+</body>
+</html>
