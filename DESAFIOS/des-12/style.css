@@ -16,16 +16,14 @@ header {
     background-color: black;
     color: white;
     text-align: center;
-
-    margin: -16px;
-    height: 230px;
 }
 
 header>h1 {
     margin: 0px;
-    padding-top: 60px;
+    padding-top: 50px;
 
-    font-size: 60px;
+    
+    font-variant: small-caps;
     font-family: var(--fonte-header);
 }
 
